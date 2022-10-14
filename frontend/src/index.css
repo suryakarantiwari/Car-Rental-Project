@@ -1,0 +1,230 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/* ------color----- */
+
+.form-container{
+  height: 700px;
+  background-color: rgb(195, 195, 218);
+}
+
+.car-data{
+  padding-top: 20px;
+  background-color: rgb(195, 195, 218);
+}
+
+.profile-bg{
+  height: 100vh;
+  background-color: rgb(195, 195, 218);
+}
+
+.car-rent-bg{
+  background-color: rgb(195, 195, 218);
+}
+
+.rent-a-car{
+  padding-top: 20px;
+  font-size: 40px;
+  font-weight: bold;
+  width: 100%;
+  text-align: center;
+}
+
+/* ------nav bar----- */
+.navbar{
+  width: 100%;
+  height: 10vh;
+  background-color: black;
+}
+
+.car-rental-logo{
+  display: inline-flex;
+  padding-left: 20px;
+}
+
+.car-logo{
+  font-size: 40px;
+  color: white;
+  cursor: pointer;
+}
+.car-logo:hover{
+  color: rgb(245, 215, 215);
+}
+
+.nav-items{
+  font-size: 20px;
+  color: white;
+  margin-top: 15px;
+  float: right;
+}
+
+.nav-username{  
+  margin-right: 40px;
+  margin-top: 30px;
+  cursor: pointer;
+}
+
+.nav-logout{
+  cursor: pointer;
+}
+
+.nav-login{
+  color: white;
+  cursor: pointer;
+}
+
+.nav-login:hover{
+  color: white;
+}
+
+/* ------nav bar end-------- */
+
+.login-text{
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.register-text{
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.car-home{
+  width: 100%;
+  margin-bottom: 30px;
+  text-align: center;
+  
+}
+
+.top-cars{
+  display: inline-flex;
+  font-weight: bold;
+  margin-left: 200px ;
+}
+
+.search-cars{
+  width: 250px;
+  float: right;
+  padding: 10px;
+  box-sizing: border-box;
+  border-radius: 10px;
+  font-size: 15px;
+  font-weight: 500;
+}
+
+
+.userName{
+  cursor: pointer;
+}
+
+.profiletable{
+  margin-left: 150px;
+}
+.profileth{
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding-right: 20px;
+  padding-left: 20px;
+}
+.profiletd{
+  background-color:yellowgreen;
+  text-align: center;
+  padding-right: 20px;
+  padding-left: 20px;
+}
+
+.cancelbtn{
+  background-color: rgb(200, 13, 13);
+  color: white;
+  border: 5px solid rgb(200, 13, 13);
+  border-radius: 5px;
+  padding: 3px 10px 3px 10px;
+  margin: 5px;
+  cursor: pointer;
+}
+
+.cancelbtn:hover{
+  background-color: rgb(250, 13, 13);
+  border: 5px solid rgb(250, 13, 13);
+}
+
+.car-table{
+  width: 100%;
+}
+
+.carth{
+  background-color: black;
+  color: white;
+  font-size: 20px;
+  padding: 10px 100px;
+  text-align: center;
+}
+
+.cartd{
+  font-size: 20px;
+  padding-top: 20px ;
+  padding-right: 180px; 
+  padding-left: 120px;
+  text-align: left; 
+  font-weight: bold;
+}
+
+
+
+.car-rent-text{
+  width: 55%;
+  font-size: 20px;
+  font-weight: bold;
+  padding-left : 115px ;
+  /* background-color: antiquewhite; */
+}
+
+.select-date{
+  width: 100%;
+  background-color: black;
+  color: white;
+  padding: 10px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.final-check-out{
+  margin-top: 40px;
+  width: 100%;
+  background-color: black;
+  color: white;
+  padding: 10px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.final-check-div{
+  float: left;
+}
+
+.to-text{
+  float: right;
+}
+
+.book-car-title{
+  width: 100%;
+  text-align: center;
+  font-size: 40px;
+  padding-top: 20px;
+}
+
+.eye-button{
+  position:absolute;
+  float: right;
+  margin-top: 27px;
+  margin-left: 260px;
+}
+
+.eye-image{
+  width: 20px;
+  height: 20px;
+}
